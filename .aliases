@@ -19,6 +19,8 @@ alias v="vim"
 alias s="subl ."
 alias o="open"
 alias oo="open ."
+alias ll="ls -al"
+alias drupal="cd sites/epa/drupal/epa/docroot"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
